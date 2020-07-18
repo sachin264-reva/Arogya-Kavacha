@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    tools:context=".searchActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome !"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arogya Kavacha Health Care Services"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search By"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="1mm"
+            android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/hospitals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawableLeft="@drawable/ic_baseline_business_24"
+        android:text="Hospitals"
+        android:textSize="20sp"
+        android:paddingLeft="1mm"
+        android:textColor="#3f89d9"/>
+
+    <Button
+        android:id="@+id/specialisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#ffffff"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawableLeft="@drawable/ic_baseline_local_hospital_24"
+        android:text="Specialisations"
+        android:textSize="20sp"
+        android:paddingLeft="1mm"
+        android:textColor="#3f89d9"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

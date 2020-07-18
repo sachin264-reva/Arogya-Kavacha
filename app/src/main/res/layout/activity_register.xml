@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:gravity="center_horizontal"
+    tools:context=".registerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW REGISTRATION"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/un2"
+        android:paddingLeft="1mm"
+        android:hint="set email ID"
+        android:maxLines="1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="new password"
+        android:paddingLeft="1mm"
+        android:drawableLeft="@drawable/pw2"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_confirmpassword"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextstyle"
+        android:drawableLeft="@drawable/pw2"
+        android:hint="confirm password"
+        android:paddingLeft="1mm"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0AF121"
+        android:background="@drawable/btnstyle"
+        android:textColor="#ffffff"
+        android:text="@string/register" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="#ffffff"
+            android:text="@string/already_registered"/>
+
+        <TextView
+            android:id="@+id/textview_login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="LOGIN"
+            android:paddingLeft="10dp"
+            android:textColor="#0AF121"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

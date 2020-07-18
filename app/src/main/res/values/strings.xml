@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Arogya Kavacha</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="not_registered">not_registered</string>
+    <string name="register">register</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="new_registration">new_registration</string>
+    <string name="re">REGISTER</string>
+    <string name="not_register">Not Registered?</string>
+</resources>
