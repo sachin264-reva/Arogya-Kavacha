@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/generalSurgery"
+        android:title="General Surgery"/>
+    <item android:id="@+id/neuroSurgery"
+        android:title="Neuro Surgery"/>
+    <item android:id="@+id/dentalSurgery"
+        android:title="Dental Surgery"/>
+    <item android:id="@+id/orthopedics"
+        android:title="Orthopedics"/>
+    <item android:id="@+id/plasticSurgery"
+        android:title="Plastic Surgery"/>
+</menu>

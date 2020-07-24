@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/neurology"
+        android:title="Neurology"/>
+    <item android:id="@+id/cardiology"
+        android:title="Cardiology"/>
+    <item android:id="@+id/oncology"
+        android:title="Oncology"/>
+    <item android:id="@+id/urology"
+        android:title="Urology"/>
+    <item android:id="@+id/endocrinology"
+        android:title="Endocrinology"/>
+</menu>
