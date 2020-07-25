@@ -15,11 +15,12 @@ class MsrActivity : AppCompatActivity() {
         setContentView(R.layout.activity_msr)
 
         location.setOnClickListener{
-            var loc = Intent(Intent.ACTION_VIEW, Uri.parse("geo:13.027086,77.57174,16z"))
+            var loc = Intent(Intent.ACTION_VIEW, Uri.parse("geo:13.027086,77.57174"))
             startActivity(loc)
         }
         email.setOnClickListener{
-            var mail = Intent(Intent.ACTION_VIEW)
+            var mail = Intent(Intent.ACTION_SEND,Uri.parse("mailto:contact@msrmh.com"))
+            startActivity(mail)
         }
         call.setOnClickListener{
             var call = Intent(Intent.ACTION_DIAL, Uri.parse("tel:08023608888"))
@@ -85,6 +86,3 @@ class MsrActivity : AppCompatActivity() {
     }
 }
 
-//add scroll view
-//facilities available in bullet points
-//mail function

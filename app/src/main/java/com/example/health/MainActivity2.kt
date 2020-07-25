@@ -1,5 +1,6 @@
 package com.example.health
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -16,7 +17,12 @@ class MainActivity2 : AppCompatActivity() {
         val adp : ArrayAdapter<String> = ArrayAdapter(this,android.R.layout.simple_list_item_1,hospital)
         listView.adapter = adp
         listView.setOnItemClickListener(){ parent,view,position,id ->
-            Toast.makeText(this , "Item Clicked:- $id", Toast.LENGTH_SHORT).show()
+           // Toast.makeText(this , "Item Clicked:- $id", Toast.LENGTH_SHORT).show()
+            if(position==0)
+            {
+                var msr = Intent(this, MsrActivity::class.java)
+                startActivity(msr)
+            }
         }
     }
 }

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -36,7 +41,7 @@
             android:layout_height="wrap_content"
             android:text="Address"
             android:textSize="15sp"
-            android:textColor="#454545"
+            android:textColor="#000"
             android:paddingTop="10dp"
             android:paddingLeft="10dp"
             android:textStyle="italic"/>
@@ -46,7 +51,7 @@
             android:layout_height="wrap_content"
             android:text="M S Ramaiah Memorial Hospital, New B E L Road, M S Ramaiah Nagar, MSRIT Post, Bangalore - 560 054"
             android:paddingTop="6dp"
-            android:paddingLeft="10dp"
+            android:paddingLeft="20dp"
             android:paddingRight="10dp"
             android:textSize="15sp"
             android:textColor="#1b2631"/>
@@ -61,7 +66,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_baseline_location_on_1"
-                android:layout_marginLeft="78dp"
+                android:layout_marginLeft="83dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/bg_round"/>
@@ -109,36 +114,39 @@
 
         <Button
             android:id="@+id/surgical"
-            android:layout_width="370dp"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:text="Surgical and Allied"
             android:background="@drawable/btnstyle"
             android:backgroundTint="@color/light_blue"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
             android:textStyle="bold"
             android:textSize="15sp" />
 
         <Button
             android:id="@+id/medical"
-            android:layout_width="370dp"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:text="Medical and Allied"
             android:background="@drawable/btnstyle"
             android:backgroundTint="@color/light_blue"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:textSize="15sp" />
 
         <Button
             android:id="@+id/superSpecial"
-            android:layout_width="370dp"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:text="Super Specialities"
             android:background="@drawable/btnstyle"
             android:backgroundTint="@color/light_blue"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:textSize="15sp"
@@ -146,9 +154,76 @@
 
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/add_bg"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facilities Available"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. MSR CARE"
+            android:textColor="#1b2631"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. BLOOD BANK"
+            android:textColor="#1b2631"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. DIALYSIS"
+            android:textColor="#1b2631"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. LABORATORY"
+            android:textColor="#1b2631"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. PALLIATIVE AND SPECIALIZED CARE"
+            android:textColor="#1b2631"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
 
 
 </LinearLayout>
 
-
+</ScrollView>
 

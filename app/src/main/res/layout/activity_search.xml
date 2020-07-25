@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/med_bg"
     android:orientation="vertical"
     android:padding="10dp"
     android:gravity="center_horizontal"
@@ -15,9 +15,9 @@
         android:layout_height="wrap_content"
         android:text="Welcome !"
         android:textSize="25sp"
-        android:textStyle="bold"
+        android:textStyle="italic"
         android:layout_marginTop="50dp"
-        android:textColor="#ffffff" />
+        android:textColor="@color/colorPrimaryDark" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:textSize="20sp"
         android:textStyle="italic"
         android:layout_marginTop="10dp"
-        android:textColor="#ffffff" />
+        android:textColor="@color/colorPrimaryDark" />
 
 
     <LinearLayout
@@ -41,35 +41,55 @@
             android:textSize="20sp"
             android:textStyle="italic"
             android:layout_marginTop="70dp"
-            android:paddingLeft="1mm"
-            android:textColor="#ffffff" />
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark" />
 
 
     <Button
         android:id="@+id/hospitals"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:backgroundTint="#ffffff"
         android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:drawableLeft="@drawable/ic_baseline_business_24"
         android:text="Hospitals"
         android:textSize="20sp"
-        android:paddingLeft="1mm"
-        android:textColor="#3f89d9"/>
+        android:textColor="#3f89d9"
+        android:background="@drawable/btnstyle"/>
 
     <Button
         android:id="@+id/specialisation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#ffffff"
         android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
         android:drawableLeft="@drawable/ic_baseline_local_hospital_24"
         android:text="Specialisations"
         android:textSize="20sp"
-        android:paddingLeft="1mm"
-        android:textColor="#3f89d9"/>
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#3f89d9"
+        android:background="@drawable/btnstyle"/>
+
+        <Button
+            android:id="@+id/loc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawableLeft="@drawable/my_loc"
+            android:text="Location"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#3f89d9"
+            android:background="@drawable/btnstyle"/>
+
     </LinearLayout>
 
 

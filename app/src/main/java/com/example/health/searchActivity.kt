@@ -40,14 +40,14 @@ class searchActivity : AppCompatActivity() {
 
             mAlterDialogBuilder.setPositiveButton("Yes"){_, _->
                 //finish()
-                var shift2 = Intent(this,MainActivity2::class.java)
+                var shift2 = Intent(this,MsrActivity::class.java)
                 startActivity(shift2)
             }
             mAlterDialogBuilder.setNegativeButton("NO"){_,_ ->
-                Toast.makeText(this,"Clicked No Buttoon",Toast.LENGTH_LONG).show()
+                //Toast.makeText(this,"Clicked No Buttoon",Toast.LENGTH_LONG).show()
             }
             mAlterDialogBuilder.setNeutralButton("Cancel"){_,_ ->
-                Toast.makeText(this,"Clicked cancel button",Toast.LENGTH_LONG).show()
+                //Toast.makeText(this,"Clicked cancel button",Toast.LENGTH_LONG).show()
             }
 
             val mAlertDialog = mAlterDialogBuilder.create()
