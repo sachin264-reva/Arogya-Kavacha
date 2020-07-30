@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/generalMed"
+        android:title="General Medicine"/>
+    <item android:id="@+id/elderlyCare"
+        android:title="Elderly Care"/>
+    <item android:id="@+id/renalDiseases"
+        android:title="Renal Diseases"/>
+    <item android:id="@+id/hematology"
+        android:title="Hematology"/>
+    <item android:id="@+id/rheumatology"
+        android:title="Rheumatology"/>
+</menu>

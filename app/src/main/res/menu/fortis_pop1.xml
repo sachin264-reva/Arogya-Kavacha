@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/adfortis"
+        android:title="Adult CTVS"/>
+    <item android:id="@+id/paeFortis"
+        android:title="Paediatrics CTVS"/>
+    <item android:id="@+id/interfortis"
+        android:title="Interventional Cardiology"/>
+    <item android:id="@+id/invasiveFortis"
+        android:title="Invasive Cardiology"/>
+</menu>

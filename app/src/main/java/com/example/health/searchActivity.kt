@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_search.*
 class searchActivity : AppCompatActivity() {
 
     lateinit var mAlertButton : Button
-    val specializations = arrayOf("Cardiology","Oncology","Neurology","Urology","Gynaelogy") //,"Corneal Replacement","Endocrinology","General Surgery","IVF","Neonatology","Neuro Modulation","Neurosurgery","Orthopedics")
+    val specializations = arrayOf("Cardiology","Oncology","Neurology","Urology","Gynaelogy")
     var checkedItem = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,8 +39,7 @@ class searchActivity : AppCompatActivity() {
             }
 
             mAlterDialogBuilder.setPositiveButton("Yes"){_, _->
-                //finish()
-                var shift2 = Intent(this,MsrActivity::class.java)
+                var shift2 = Intent(this,MainActivity2::class.java)
                 startActivity(shift2)
             }
             mAlterDialogBuilder.setNegativeButton("NO"){_,_ ->
