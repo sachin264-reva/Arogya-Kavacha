@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HospitalsActivity"></activity>
+        <activity android:name=".FortisuroActivity"></activity>
+        <activity android:name=".NimhansActivity" />
+        <activity android:name=".KidwaiActivity" />
+        <activity android:name=".JaydevaActivity" />
+        <activity android:name=".HlistActivity" />
+        <activity android:name=".symptomActivity" />
         <activity android:name=".sapActivity" />
         <activity android:name=".FortisActivity" />
         <activity android:name=".ApolloActivity" />

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".symptomActivity">
+
+    <Button
+        android:id="@+id/cardiacBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_bg"
+        android:text="Cardiology"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+    <Button
+        android:id="@+id/oncoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_bg"
+        android:text="Oncology"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+    <Button
+        android:id="@+id/uroBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_bg"
+        android:text="Urology"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+    <Button
+        android:id="@+id/neuroBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_bg"
+        android:text="Neurology"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+
+
+</LinearLayout>
