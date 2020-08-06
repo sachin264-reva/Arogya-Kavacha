@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/add_bg"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp">
+
+
+    <LinearLayout
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/CovidHos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospital name"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/HosAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:textSize="13dp"></TextView>
+        <TextView
+            android:id="@+id/Beds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of beds"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:textSize="13dp"></TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

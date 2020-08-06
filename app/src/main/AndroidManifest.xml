@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FortisuroActivity"></activity>
+        <activity android:name=".CovidActivity"></activity>
+        <activity android:name=".FortisuroActivity" />
         <activity android:name=".NimhansActivity" />
         <activity android:name=".KidwaiActivity" />
         <activity android:name=".JaydevaActivity" />

@@ -22,6 +22,10 @@ class searchActivity : AppCompatActivity() {
             var symptom = Intent(this@searchActivity,symptomActivity::class.java)
             startActivity(symptom)
         }
+        covid.setOnClickListener {
+            var covid = Intent(this@searchActivity,CovidActivity::class.java)
+            startActivity(covid)
+        }
 
 //    lateinit var mAlertButton : Button
 //    val specializations = arrayOf("Cardiology","Oncology","Neurology","Urology","Gynaelogy")
